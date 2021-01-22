@@ -14392,6 +14392,11 @@
   "RootNamespace": "TestWebsite",
   "Documents": [
     {
+      "FilePath": "w:\\Websites\\TestWebsite\\Views\\Home\\Gallery.cshtml",
+      "TargetPath": "Views\\Home\\Gallery.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "w:\\Websites\\TestWebsite\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -14402,13 +14407,38 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "w:\\Websites\\TestWebsite\\Views\\Home\\AboutUs.cshtml",
+      "TargetPath": "Views\\Home\\AboutUs.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "w:\\Websites\\TestWebsite\\Views\\Home\\Recommendation.cshtml",
+      "TargetPath": "Views\\Home\\Recommendation.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "w:\\Websites\\TestWebsite\\Views\\Home\\Contact.cshtml",
+      "TargetPath": "Views\\Home\\Contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "w:\\Websites\\TestWebsite\\Views\\Home\\Culture.cshtml",
+      "TargetPath": "Views\\Home\\Culture.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "w:\\Websites\\TestWebsite\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "w:\\Websites\\TestWebsite\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "w:\\Websites\\TestWebsite\\Views\\Home\\Reservation.cshtml",
+      "TargetPath": "Views\\Home\\Reservation.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "w:\\Websites\\TestWebsite\\Views\\Home\\Menu.cshtml",
+      "TargetPath": "Views\\Home\\Menu.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14424,6 +14454,11 @@
     {
       "FilePath": "w:\\Websites\\TestWebsite\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "w:\\Websites\\TestWebsite\\Views\\Home\\News.cshtml",
+      "TargetPath": "Views\\Home\\News.cshtml",
       "FileKind": "mvc"
     }
   ],

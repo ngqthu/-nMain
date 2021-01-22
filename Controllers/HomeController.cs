@@ -23,10 +23,41 @@ namespace TestWebsite.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult AboutUs()
         {
             return View();
         }
+             public IActionResult Contact()
+        {
+            return View();
+        }
+
+         public IActionResult Menu()
+           {
+            return View();
+           }
+         public IActionResult Culture()
+        {
+            return View();
+        }
+         public IActionResult News()
+        {
+            return View();
+        }
+        public IActionResult Reservation()
+        {
+            return View();
+        }
+        public IActionResult Recommendation()
+        {
+            return View();
+        }
+        public IActionResult Gallery()
+        {
+            return View();
+        }
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
