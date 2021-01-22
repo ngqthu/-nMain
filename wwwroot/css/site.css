@@ -139,3 +139,6 @@ color: #FFFFFF;
   text-decoration:none !important;
   font-style: bold;
 }
+.container{
+  max-width: 100% !important;
+}
