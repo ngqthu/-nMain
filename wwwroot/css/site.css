@@ -6,7 +6,19 @@ a.navbar-brand {
   text-align: center;
   word-break: break-all;
 }
-
+#Logo1 {
+  margin-right:50%;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+.fill{
+  min-height: 100%;
+  padding-top: 5%;
+}
 /* Provide sufficient contrast against white background */
 a {
   color: #0366d6;
@@ -36,15 +48,12 @@ html {
 }
 
 .border-top {
-  border-top: 1px solid #e5e5e5;
+  border-top: 0px solid #e5e5e5;
 }
 .border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 0px solid #e5e5e5 !important;
 }
 
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
 
 button.accept-policy {
   font-size: 1rem;
@@ -68,4 +77,65 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+.MainPageText{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 128px;
+line-height: 156px;
+text-transform: uppercase;
+
+color: #FFB900;
+}
+.MainButton {
+	background-color:#0d1327;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:12px 15px;
+  text-decoration:none;
+  margin-top: 5%;
+}
+.MainButton:hover {
+  background-color: #FFB900;
+	text-decoration:none !important;
+}
+
+.AboutUsText{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 80px;
+line-height: 98px;
+text-align: center;
+text-transform: uppercase;
+
+color: #19234B;
+}
+
+.navDark{
+  background: #19234B;
+
+}
+.navDarkText{
+  
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.navDarkText:hover {
+  font-style: bold;
+  text-decoration:none !important;
+  font-style: bold;
 }
