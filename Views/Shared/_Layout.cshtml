@@ -6,16 +6,15 @@
     <title>@ViewData["Title"] An An</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
-
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light navDark">
-            <div class="container">
+    <header id="TopNavBar">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light navDark" id="NavBar">
+            <div class="container" >
                 <a class="navbar-brand" asp-area=""  asp-controller="Home" asp-action="Index" id = "Logo1"><img id="logo" src="~/Group.png" alt="An An" /></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span> 
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse ">
                     <ul class="navbar-nav flex-grow-1">
@@ -42,17 +41,13 @@
             </div>
         </nav>
     </header>
-    <div class="container fill">
+    <div class="container fill" >
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; An An <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+ 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

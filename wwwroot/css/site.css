@@ -7,7 +7,7 @@ a.navbar-brand {
   word-break: break-all;
 }
 #Logo1 {
-  margin-right:50%;
+  width:50%;
 }
 html {
   height: 100%;
@@ -16,8 +16,9 @@ body {
   min-height: 100%;
 }
 .fill{
-  min-height: 100%;
+  min-height: 90vh;
   padding-top: 5%;
+  background-color: #19234B;
 }
 /* Provide sufficient contrast against white background */
 a {
@@ -130,10 +131,16 @@ font-weight: 600;
 font-size: 15px;
 line-height: 20px;
 text-transform: uppercase;
-
+padding-right: 20px;
 color: #FFFFFF;
 }
 
+#TopNavBar{
+  height: 10vh;
+}
+#NavBar{
+  height: 100%;
+}
 .navDarkText:hover {
   font-style: bold;
   text-decoration:none !important;
