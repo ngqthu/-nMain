@@ -9,6 +9,10 @@ a.navbar-brand {
 #Logo1 {
   width:50%;
 }
+#AnAnLogo{
+  max-height: 50px;
+  margin-right: 45%;
+}
 html {
   height: 100%;
 }
@@ -17,8 +21,7 @@ body {
 }
 .fill{
   min-height: 90vh;
-  padding-top: 5%;
-  background-color: #19234B;
+  padding-top: 3%;
 }
 /* Provide sufficient contrast against white background */
 a {
@@ -107,16 +110,16 @@ color: #FFB900;
 	text-decoration:none !important;
 }
 
-.AboutUsText{
+.AboutUsHeader{
   font-family: Montserrat;
-font-style: normal;
-font-weight: 800;
-font-size: 80px;
-line-height: 98px;
-text-align: center;
-text-transform: uppercase;
-
-color: #19234B;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 98px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #19234B;
+  padding-bottom: 3%;
 }
 
 .navDark{
@@ -128,10 +131,10 @@ color: #19234B;
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
-font-size: 15px;
+font-size: 20px;
 line-height: 20px;
 text-transform: uppercase;
-padding-right: 20px;
+padding-right: 3vh;
 color: #FFFFFF;
 }
 
@@ -148,4 +151,40 @@ color: #FFFFFF;
 }
 .container{
   max-width: 100% !important;
+}
+.AboutUsBody{
+  width: 40%;
+  margin-left: 30%;
+
+}
+
+.AboutUsText{
+  padding-bottom: 2%;
+  font-family:'Courier New', Courier, monospace;
+}
+
+/* 2 column layout */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height:100%;
+}
+
+/* Clear floats after the columns */
+.rowMenu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rowMenu{ 
+  display: flex;
+  width: 80%;
+  padding-left: 25%;
+
+}
+
+.text-left{
+  text-align: left;
 }
