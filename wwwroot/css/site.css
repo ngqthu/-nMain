@@ -95,15 +95,15 @@ text-transform: uppercase;
 color: #FFB900;
 }
 .MainButton {
-	background-color:#0d1327;
-	border:1px solid #ffffff;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	padding:12px 15px;
-  text-decoration:none;
+  background-color: #0d1327;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  padding: 12px 15px;
+  text-decoration: none;
   margin-top: 5%;
 }
 
@@ -115,12 +115,12 @@ color: #FFB900;
   display: inline-block;
   text-align: center;
   cursor: pointer;
-  padding: 3% 2% 2% 2%;
+  padding: 4% 2% 2% 2%;
   font-family: Arial;
   color: #19234B;
   font-weight: 600;
-  font-size: 36px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2rem;
   width: 25%;
   height: 105px;
   letter-spacing: 0.5px;
@@ -132,14 +132,16 @@ color: #FFB900;
   background-color: #f1cb5f;
 }
 .ReserveButton {
-	background-color:#FFB900;
-	border:1px solid #FFB900;
-	display:inline-block;
-	cursor:pointer;
-	font-family:Arial;
-	font-size:15px;
-	padding:12px 15px;
-  text-decoration:none;
+  background-color: #FFB900;
+  border: 1px solid #FFB900;
+  width: 15%;
+  height: 35px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  padding: 7px 15px;
+  color: white !important;
 }
 .ReserveButton:hover {
   cursor:pointer;
@@ -206,25 +208,25 @@ color: #FFFFFF;
 }
 .AboutUsCulture {
   height: 100vh;
-  margin-top: 5%;
+  margin-top: 12%;
   background: #19234B;
 }
 
 .CultureText{
-  font-size: 32px;
+  font-size: 1.5rem;
   color: #FDFDFD;
-  line-height: 46px;
-  width: 75%;
+  line-height: 2rem;
+  width: 85%;
   text-align: center;
   padding-top: 5%;
-  padding-left: 30%;
+  padding-left: 20%;
 }
 .CultureHeader{
   font-family: Montserrat;
   font-style: normal;
   font-weight: 800;
-  font-size: 128px;
-  line-height: 156px;
+  font-size: 5rem;
+  line-height: 6rem;
   text-transform: uppercase;
   color: #FFB900;
   padding-top : 15%;
@@ -236,8 +238,8 @@ color: #FFFFFF;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 800;
-  font-size: 128px;
-  line-height: 156px;
+  font-size: 5rem;
+  line-height: 6rem;
   text-transform: uppercase;
   color: #FFB900;
   padding-top : 20%;
@@ -245,9 +247,13 @@ color: #FFFFFF;
   text-align: center;
 }
 
+#galleryImg{
+  padding: 15% 0% 0% 0%;
+}
+
 .AboutUsGallery{
   height: 100vh;
-  background: #E5E5E5;
+  background: #FFFFFF;
 }
 .AboutUsRecommendation{
     height: 100vh;
@@ -260,11 +266,12 @@ color: #FFFFFF;
 }
 
 .AboutUsText{
-  font-family: Poppins;
+  font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 1.5rem;
   line-height: 2.5rem;
+  font-weight: 400;
   text-align: center;
   letter-spacing: 0.5px;
   color: #000000;
@@ -278,6 +285,13 @@ color: #FFFFFF;
   height:100%;
 }
 
+.col4{
+  float: left;
+  width: 15%;
+  padding-top: 7%;
+  color: #19234B;
+  font-family: 'Montserrat';
+}
 /* Clear floats after the columns */
 .rowMenu:after {
   content: "";
@@ -322,24 +336,24 @@ color: #FFFFFF;
 .ReservationInput{
   margin-top: 2%;
   margin-right: 2%;
+  margin-top: 2%;
+  margin-right: 2%;
+  font-family: 'Montserrat';
+  padding: 7px 15px;
 }
 
 .newsText{
   position: absolute;
-  width: 274px;
-  height: 78px;
-  left: 186px;
-  top: 243px;
-
+  left: 8%;
+  top: 25%;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 64px;
-  line-height: 78px;
+  font-size: 5rem;
+  line-height: 5.5rem;
   margin-left: 3%;
   margin-top: -2%;
   text-transform: uppercase;
-
   color: #FFB900;
 }
 
@@ -376,7 +390,7 @@ color: #FFFFFF;
 
 .carousel-controlers{
   text-align:center;
-  padding-top:30%;
+  padding-top:20%;
 }
 .carousel-blocks{
   display:inline;
@@ -384,8 +398,8 @@ color: #FFFFFF;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 50px;
-  line-height: 41px;
+  font-size: 2rem;
+  line-height: 2.5rem;
   text-align: center;
   text-transform: uppercase;
   color: #FFB900;
@@ -412,10 +426,94 @@ color: #FFFFFF;
 }
 
 .RecText{
-    font-size: 32px;
+    font-size: 2rem;
     color: #FDFDFD;
-    line-height: 46px;
+    line-height: 2.5rem;
     width: 90%;
     text-align: center;
     padding-left: 15%;
 }
+
+.galleryText{
+  font-size: 2rem;
+  color: #19234B;
+  line-height: 2.5rem;
+  width: 90%;
+  text-align: center;
+  padding-left: 15%;
+  padding-top: 5%;
+}
+
+.galleryButton {
+  margin: 15% 0% 0% 35%;
+  background-color: #19234B;
+  border: 1px solid #19234B;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  padding: 3% 2% 2% 2%;
+  font-family: Arial;
+  color: #FFB900;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2rem;
+  width: 35%;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+.galleryButton:hover{
+  cursor:pointer;
+  background-color: #243370;
+}
+
+input{
+  width: 15%;
+    overflow: visible;
+    height: 35px;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #19234B;
+  color: #FFB900;
+  text-align: center;
+  padding-top: 15px;
+  font-family: Montserrat;
+  font-size: 1rem;
+}
+
+.columnNews{
+  float: left;
+    width: 45%;
+    padding-top: 3%;
+    padding-LEFT: 8%;
+    height: 100%;
+}
+.carousel-control.left { 
+  background-image: linear-gradient(to right,rgb(183 197 255/ 50%) 0,rgba(0,0,0,.0001) 100%);}
+
+.carousel-control.right { background-image: linear-gradient(to left,rgb(183 197 255 / 50%) 0,rgba(0,0,0,.0001) 100%);}
+
+.carousel-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  font-size: 20px;
+  color: #19234B;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  background-color: rgba(0,0,0,0);
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+
+.carousel-control:hover{
+  color: #2d3d7e;
+
+}
+
