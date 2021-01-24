@@ -8,6 +8,8 @@ a.navbar-brand {
 }
 #Logo1 {
   width:50%;
+  padding-left: 10%;
+
 }
 #AnAnLogo{
   max-height: 50px;
@@ -104,6 +106,47 @@ color: #FFB900;
   text-decoration:none;
   margin-top: 5%;
 }
+
+
+.RecButton {
+  margin: 15% 20% 0% 15%;
+  background-color: #FFB900;
+  border: 1px solid #FFB900;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  padding: 3% 2% 2% 2%;
+  font-family: Arial;
+  color: #19234B;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 24px;
+  width: 25%;
+  height: 105px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+.RecButton:hover {
+  cursor:pointer;
+  background-color: #f1cb5f;
+}
+.ReserveButton {
+	background-color:#FFB900;
+	border:1px solid #FFB900;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:15px;
+	padding:12px 15px;
+  text-decoration:none;
+}
+.ReserveButton:hover {
+  cursor:pointer;
+  background-color: #f1cb5f;
+}
+
+
 .MainButton:hover {
   background-color: #FFB900;
 	text-decoration:none !important;
@@ -138,12 +181,14 @@ color: #FFFFFF;
 }
 
 #TopNavBar{
-  height: 10vh;
+  height: 12vh;
   position: fixed;
   width: 100%;
+  z-index: 10;
 }
 #NavBar{
   height: 100%;
+ 
 }
 .navDarkText:hover {
   font-style: bold;
@@ -159,10 +204,70 @@ color: #FFFFFF;
   margin-left: 30%;
 
 }
+.AboutUsCulture {
+  height: 100vh;
+  margin-top: 5%;
+  background: #19234B;
+}
+
+.CultureText{
+  font-size: 32px;
+  color: #FDFDFD;
+  line-height: 46px;
+  width: 75%;
+  text-align: center;
+  padding-top: 5%;
+  padding-left: 30%;
+}
+.CultureHeader{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 128px;
+  line-height: 156px;
+  text-transform: uppercase;
+  color: #FFB900;
+  padding-top : 15%;
+  padding-left: 5%;
+  text-align: center;
+}
+
+.RecHeader{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 128px;
+  line-height: 156px;
+  text-transform: uppercase;
+  color: #FFB900;
+  padding-top : 20%;
+  padding-left: 5%;
+  text-align: center;
+}
+
+.AboutUsGallery{
+  height: 100vh;
+  background: #E5E5E5;
+}
+.AboutUsRecommendation{
+    height: 100vh;
+    background: #19234B;
+  }
+
+#AboutUsImg{
+  padding-top: 5%;
+  width: 80%;
+}
 
 .AboutUsText{
-  padding-bottom: 2%;
-  font-family:'Courier New', Courier, monospace;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #000000;
 }
 
 /* 2 column layout */
@@ -186,6 +291,17 @@ color: #FFFFFF;
   padding-left: 10%;
 
 }
+.rowNews{ 
+  display: flex;
+  width: 90%;
+  padding-left: 10%;
+  padding-top: 8%;
+}
+.rowNews:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .text-left{
   text-align: left;
@@ -196,10 +312,110 @@ color: #FFFFFF;
   float: right;
 }
 .subPage{
-  height: 90vh; 
+  height: 100vh; 
   padding-top: 10%;
 }
 
 .newsBackground{
   background: #19234B;
+}
+.ReservationInput{
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+.newsText{
+  position: absolute;
+  width: 274px;
+  height: 78px;
+  left: 186px;
+  top: 243px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 78px;
+  margin-left: 3%;
+  margin-top: -2%;
+  text-transform: uppercase;
+
+  color: #FFB900;
+}
+
+.newsButton {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  height: 50px;
+  line-height: 50px;
+  color: #FFB900;
+  font-family: Montserrat;
+  width: 253px;
+  font-size: 40px;
+  font-weight: 100;
+  padding: 25% 10% 25% 10%;
+  background-color: #19234B;
+  border: solid #FFB900 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.newsButton:hover {
+  background: #09488B;
+  border: solid #FFAE00 1px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  text-decoration: none;
+}
+
+.carousel-controlers{
+  text-align:center;
+  padding-top:30%;
+}
+.carousel-blocks{
+  display:inline;
+  padding:14%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 41px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFB900;
+
+  background:none;
+  border:none;
+  margin:0;
+  cursor: pointer;
+}
+
+.carousel-blocks:hover {
+  cursor:pointer;
+
+}
+
+.carousel-blocks:active{
+  border:none;
+}
+
+.RowAboutUs{
+  display: flex;
+  width: 100%;
+
+}
+
+.RecText{
+    font-size: 32px;
+    color: #FDFDFD;
+    line-height: 46px;
+    width: 90%;
+    text-align: center;
+    padding-left: 15%;
 }
