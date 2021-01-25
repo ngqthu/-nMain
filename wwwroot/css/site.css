@@ -209,6 +209,8 @@ color: #FFFFFF;
 .AboutUsCulture {
   height: 100vh;
   margin-top: 12%;
+  min-width: 1920px;
+    min-height: 1080px;
   background: #19234B;
 }
 
@@ -254,10 +256,14 @@ color: #FFFFFF;
 .AboutUsGallery{
   height: 100vh;
   background: #FFFFFF;
+  min-width: 1920px;
+    min-height: 1080px;
 }
 .AboutUsRecommendation{
     height: 100vh;
     background: #19234B;
+    min-width: 1920px;
+    min-height: 1080px;
   }
 
 #AboutUsImg{
