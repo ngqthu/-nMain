@@ -56,8 +56,19 @@ namespace TestWebsite.Controllers
         {
             return View();
         }
+        public IActionResult DoAn()
+        {
+            return View();
+        }
 
-
+        public IActionResult Combo()
+        {
+            return View();
+        }
+        public IActionResult DoUong()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

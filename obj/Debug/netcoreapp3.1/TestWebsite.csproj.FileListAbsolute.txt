@@ -86,3 +86,6 @@ C:\Users\admin\Documents\TestWebsite\An-An\obj\Debug\netcoreapp3.1\TestWebsite.d
 C:\Users\admin\Documents\TestWebsite\An-An\obj\Debug\netcoreapp3.1\TestWebsite.pdb
 C:\Users\admin\Documents\TestWebsite\An-An\obj\Debug\netcoreapp3.1\TestWebsite.genruntimeconfig.cache
 C:\Users\admin\Documents\TestWebsite\An-An\obj\Debug\netcoreapp3.1\TestWebsite.csproj.CopyComplete
+C:\Users\admin\Documents\TestWebsite\An-An\obj\Debug\netcoreapp3.1\Razor\Views\Home\DoAn.cshtml.g.cs
+C:\Users\admin\Documents\TestWebsite\An-An\obj\Debug\netcoreapp3.1\Razor\Views\Home\Combo.cshtml.g.cs
+C:\Users\admin\Documents\TestWebsite\An-An\obj\Debug\netcoreapp3.1\Razor\Views\Home\DoUong.cshtml.g.cs

@@ -520,6 +520,9 @@ footer {
 
 .carousel-control:hover{
   color: #2d3d7e;
-
+ 
 }
 
+.carousel-blocks:hover{
+  text-decoration: none;
+}

@@ -14392,6 +14392,11 @@
   "RootNamespace": "TestWebsite",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\admin\\Documents\\TestWebsite\\An-An\\Views\\Home\\DoUong.cshtml",
+      "TargetPath": "Views\\Home\\DoUong.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\admin\\Documents\\TestWebsite\\An-An\\Views\\Home\\AboutUs.cshtml",
       "TargetPath": "Views\\Home\\AboutUs.cshtml",
       "FileKind": "mvc"
@@ -14437,8 +14442,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\admin\\Documents\\TestWebsite\\An-An\\Views\\Home\\DoAn.cshtml",
+      "TargetPath": "Views\\Home\\DoAn.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\admin\\Documents\\TestWebsite\\An-An\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\admin\\Documents\\TestWebsite\\An-An\\Views\\Home\\Combo.cshtml",
+      "TargetPath": "Views\\Home\\Combo.cshtml",
       "FileKind": "mvc"
     },
     {
