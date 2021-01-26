@@ -526,3 +526,8 @@ footer {
 .carousel-blocks:hover{
   text-decoration: none;
 }
+
+.MenuImg{
+  height : 100%;
+  width: 100%;
+}
