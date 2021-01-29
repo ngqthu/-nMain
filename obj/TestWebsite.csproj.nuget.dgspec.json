@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Documents\\TestWebsite\\An-An\\TestWebsite.csproj": {}
+    "/Users/quynhthu/Desktop/Anan/WEB/An-An/TestWebsite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Documents\\TestWebsite\\An-An\\TestWebsite.csproj": {
+    "/Users/quynhthu/Desktop/Anan/WEB/An-An/TestWebsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Documents\\TestWebsite\\An-An\\TestWebsite.csproj",
+        "projectUniqueName": "/Users/quynhthu/Desktop/Anan/WEB/An-An/TestWebsite.csproj",
         "projectName": "TestWebsite",
-        "projectPath": "C:\\Users\\admin\\Documents\\TestWebsite\\An-An\\TestWebsite.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Documents\\TestWebsite\\An-An\\obj\\",
+        "projectPath": "/Users/quynhthu/Desktop/Anan/WEB/An-An/TestWebsite.csproj",
+        "packagesPath": "/Users/quynhthu/.nuget/packages/",
+        "outputPath": "/Users/quynhthu/Desktop/Anan/WEB/An-An/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/quynhthu/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }
